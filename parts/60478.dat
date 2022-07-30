@@ -1,0 +1,14 @@
+0 LDCad shadow info for "Plate  1 x  2 with Handle on End"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2013-12-18 {Roland Melkert} Initial info for 60478.dat
+
+0 //Antistuds
+0 !LDCAD SNAP_INCL [ref=3023.dat]
+
+0 //Handle
+0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 4 8] [center=true] [slide=true] [pos=30 2 0] [ori=0 0 -1 -1 0 0 0 1 0]
+
+0 !LDCAD MIRROR_INFO [baseFlip=Z]

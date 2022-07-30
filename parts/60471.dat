@@ -1,0 +1,9 @@
+0 LDCad shadow info for "Hinge Plate  1 x  2 Locking 9-Position with Dual Finger on Side"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2014-09-13 {Roland Melkert} Initial info for 60471.dat
+
+0 !LDCAD SNAP_INCL [ref=3023.dat]
+0 !LDCAD SNAP_FGR [group=lckHng] [genderOfs=M] [seq=4.5 8 4.5] [pos=0 2 -20] [ori=0 -1 0 1 0 0 0 0 1]

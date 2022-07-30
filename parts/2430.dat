@@ -1,0 +1,13 @@
+0 LDCad shadow info for "Hinge Plate  1 x  4 Top"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2014-09-13 {Roland Melkert} Initial info for 2430.dat
+
+0 !LDCAD SNAP_INCL [ref=3023.dat] [pos=20 0 10]
+
+0 //connector is visually different due to scaling of a normal tech connector.
+0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 4   _L 4.5 1] [pos=0 4 0] [ori=1 0 0 0 -1 0 0 0 -1]
+
+0 !LDCAD MIRROR_INFO [counterPart=2429.dat]

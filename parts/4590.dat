@@ -1,0 +1,12 @@
+0 LDCad shadow info for "Plate  1 x  4 Offset"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2013-12-18 {Roland Melkert} Initial info for 4590.dat
+
+0 //Anti studs
+0 !LDCAD SNAP_INCL [ref=3023.dat]
+
+0 //Holes
+0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 4   R 4 16] [slide=true] [pos=-30 16 10] [grid=2 1 60 0]
