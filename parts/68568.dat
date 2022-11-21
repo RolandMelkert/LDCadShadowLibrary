@@ -1,0 +1,6 @@
+0 LDCad info for "Plate  3 x  3 with  2 x  2 Corner Round and  2 x  2 with  1 x  1 Corner Round Cutout"
+0 Author: Jaco van der Molen
+0 !LICENSE Redistributable under CCAL version 4.0 : see CAreadme.txt
+
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=10 8 40] [ori=0 0 -1 0 1 0 1 0 0] [grid=1 C 2 0 20]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=40 8 10] [grid=1 C 2 0 20]
