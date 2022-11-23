@@ -4,10 +4,12 @@
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2021-07-13 {Roland Melkert} Initial info for 92013.dat
-0 !HISTORY 2022-11-17 {Jaco van der Molen} add info from 2x2 brick for underside
+0 !HISTORY 2022-11-17 {Jaco van der Molen} add info from 2x2 brick for underside and add socket/ball
 
 0 !LDCAD SNAP_CLEAR [ID=axle]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 8   A 6 16] [pos=0 24 0]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
+
+0 !LDCAD SNAP_GEN [group=techBallJnt] [gender=F] [bounding=sph 12.7] [match=size] [placement=free] [pos=40 10 0] [mirror=none]
 
 0 !LDCAD SNAP_INCL [ref=3003.dat]

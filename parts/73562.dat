@@ -1,0 +1,7 @@
+0 LDCad info for "Bracket  3 x  2 x  1.333 with Bottom Stud Holder"
+0 Author: Jaco van der Molen
+0 !LICENSE Redistributable under CCAL version 4.0 : see CAreadme.txt
+
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 32 -20] [grid=C 2 1 20 0]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 8 20] [grid=C 2 1 20 0]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 28] [pos=0 32 0] [grid=C 2 1 20 0]
