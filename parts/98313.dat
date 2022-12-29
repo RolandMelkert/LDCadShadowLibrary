@@ -1,11 +1,10 @@
-0 LDCad info for "Minifig Mechanical Arm with Clip and Rod Hole with Thick Forearm"
+0 LDCad shadow info for "Minifig Mechanical Arm with Clip and Rod Hole with Thick Forearm"
 
 0 Author: Jaco van der Molen
 0 !LICENSE Redistributable under CCAL version 4.0 : see CAreadme.txt
 
-0 !HISTORY 2022-12-12 {Jaco van der Molen} Add info for clips and holes
+0 !HISTORY 2022-12-12 {Jaco van der Molen} Initial info for 98313.dat
 
-1 16 0 0 0 1 0 0 0 0 1 0 -1 0 clip5.dat
-
+0 !LDCAD SNAP_CLP [radius=4] [length=8] [pos=0 0 -4] [ori=1 0 0 0 0 1 0 -1 0]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 14] [pos=22 17 -7] [ori=1 0 0 0 0 1 0 -1 0]
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 4 10] [slide=true] [pos=38 17.5 0] [ori=0 1 0 1 0 0 0 0 -1]
