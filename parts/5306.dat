@@ -1,9 +1,9 @@
-0 LDCad shadow info for "Electric Brick  2 x  2 x  2/3 with Wire End"
+0 LDCad shadow info for "~Electric Brick  2 x  2 x  0.667 with Wire End (Obsolete)"
 
 0 Author: LDCad Shadow Library
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2018-03-04 {Roland Melkert} Initial info for 5306.dat
+0 !HISTORY 2023-07-04 {Roland Melkert} Removed duplicate antistuds
 
-0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 16 0] [grid=C 2 C 2 20 20]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
