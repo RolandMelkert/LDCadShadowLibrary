@@ -5,4 +5,4 @@
 
 0 !HISTORY 2023-07-04 {Roland Melkert} Initial info for 16709p0h.dat
 
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41879s01.dat
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 24 0] [grid=C 2 1 20 0]
