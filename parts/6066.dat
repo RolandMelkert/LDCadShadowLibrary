@@ -4,10 +4,8 @@
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2013-12-17 {Roland Melkert} Initial info for 6066.dat
+0 !HISTORY 2023-07-08 {Roland Melkert} Replaced 3023 includes
 
-0 //1x2 plate antistuds
-0 !LDCAD SNAP_INCL [ref=3023.dat] [pos=-50 48 20] [ori=0 0 -1 0 1 0 1 0 0]
-0 !LDCAD SNAP_INCL [ref=3023.dat] [pos=50 48 20] [ori=0 0 -1 0 1 0 1 0 0]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 56 -10] [grid=C 4 1 20 0]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 56 20] [ori=0 0 -1 0 1 0 1 0 0] [grid=C 2 C 2 20 100]
 
-0 //1x4 plate antistuds
-0 !LDCAD SNAP_INCL [ref=3710.dat] [pos=0 48 -10]

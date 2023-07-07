@@ -30,7 +30,7 @@ The .csl file is just a renamed zip so you can use your favorite unzip program t
 
 Once you got a folder with parts and p folders in it, move it somewhere logical. Just be sure to avoid a virtual (cloud) drive as it might be extremely slow. And keep it outside any normal LDraw library location.
 
-Next you (re)start LDCad (1.7 Beta 1 or later) to adjust it's configuration.
+Next you (re)start LDCad to adjust it's configuration.
 
 Open the LDraw search paths dialog (prefs/LDraw/Search (library) paths) and select the official library line in the search order section.
 
@@ -39,11 +39,11 @@ It's shadow option should point to offLibShadow.csl, change it to wherever you p
 You will need to restart LDCad to activate the changes.
 
 ### Enabling part editing
-Next we need to enable some of the shadow editing tools, which are disabled by default, for this you open the "Prefs/Editing/Part" menu.
+Next we need to enable some of the shadow editing tools (>=LDCad 1.7 Beta 1), which are disabled by default, for this you open the "Prefs/Editing/Part editing" menu.
 
 Enable its "Part (shadow) editing" and "Auto shadow header" options and click "Shadow header options...".
 
-In the dialog choose "Official" as format and Type your full name (or github username) and be sure to leave "Delete empty files on disk" checked.
+In the dialog choose "Official" as format and input your full name (or github username) and be sure to leave "Delete empty files on disk" checked.
 
 When done accept the changes, they will be applied without the need for a restart.
 
@@ -141,8 +141,6 @@ Some primitive shadow files use ID's on some of the meta's, this way the informa
 - **studDuplo**: Duplo stud and variants.
 - **studO**: stud2.dat (open stud) and variants.
 - **wpAxHole**: Wheel pin (axle) hole.
-
-
 
 ### Groups
 
@@ -253,8 +251,6 @@ Some off beat shapes use group names to prevent unwanted matches, the currently 
 - **wpAxHole**: Wheel pin with small wings.
 - **z28Turntable**: Turntable connection.
 - **z56TurnTableT1**: Turntable connection.
-
-
 
 ### Wheels
 
