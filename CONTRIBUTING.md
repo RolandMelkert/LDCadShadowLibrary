@@ -4,99 +4,127 @@ This document will try to help you get ready to contribute to the LDCad Shadow L
 
 ## Introduction
 
-This document will help you get started, but before you do please realize it will need alot of patience and precision.
+Before you get started please realize you will need lots of patience, precision and some fidling to define accurate shadow information.
 
-The library is made out of human readable/editable text (.dat) files, but you most likely don't want to edit those as is.
+It also requires a basic understanding of the LDraw format and the way official LDraw library files are constructed.
 
-The easiest why of working with shadow files is right inside LDCad itself. Below you'll find a section about setting up a descent workflow.
+Just like LDraw files the shadow library is made out of human readable/editable .dat (UTF8 text) files, but you most likely don't want to edit those as is.
 
-Once you got one or more new / changed .dat file(s) you are ready to submit them, the're multiple ways of doing this (in descending profitability):
+LDCad will combine the official and shadow content of the same name during loading before processing it as a single text file.
 
-1. Clone the github repo and push your changes
+## How to contribute
+
+There are multiple ways of contributing something to the library:
+
+1. Fork the github repo, clone a local copy and when your done with your changes create a push request.
 2. Post additions, changes, problems, suggestions on: https://forums.ldraw.org/thread-23807.html
 3. E-Mail additions/changes to the LDCad author.
 
+The push request method is preferred as it will be easier to merge your changes. It also provides you with full credit.
+
+To make merging of your content as easy as possible please follow and or be aware of the following rules:
+
+- Shadows should always be written against the latest offical LDraw library (https://library.ldraw.org/updates?latest).
+- Header should be formated similar to all other shadow files.
+- Besides a subset of header meta's only LDCad SNAP, MIRROR and HINTS metas are allowed.
+- Any donated content will become part of the library using its global license (see LICENSE.md).
+- Your Content might be rejected if it needs to many corrections.
+
 ## LDCad
-As mentioned the best way to edit shadow files is inside LDCad itself. This section will help you setup a workable environment for this.
+
+The easiest way of working with shadow files is inside LDCad itself. This section will help you setup a basic environment to do this in.
 
 ### Using the latest shadow library
+
 By default LDCad comes with a packed version of the library inside offLibShadow.csl (located in the shadow/offLib folder)
 
-You can edit the content of those files inside LDCad like normal but you won't be able to safe anything afterwards.
+You can edit the content of those files inside LDCad like normal, but you won't be able to safe anything afterwards.
 
-So first step is to unpack offLibShadow.csl somewhere or fetch a fresh copy of the githup repo and use that instead of offLibShadow.csl
+So the first step is to unpack offLibShadow.csl somewhere or fetch a fresh copy of the githup repo and use that instead of offLibShadow.csl.
 
-The .csl file is just a renamed zip so you can use your favorite unzip program to extract it contents (rename it to zip first if needed).
+The .csl file is just a renamed zip so you can use your favorite archive program to extract its contents (rename it to .zip first if needed).
 
 Once you got a folder with parts and p folders in it, move it somewhere logical. Just be sure to avoid a virtual (cloud) drive as it might be extremely slow. And keep it outside any normal LDraw library location.
 
-Next you (re)start LDCad to adjust it's configuration.
+Next you start LDCad to adjust its configuration. Open the LDraw search paths dialog (prefs/LDraw/Search (library) paths) and select the official library line in the search order section.
 
-Open the LDraw search paths dialog (prefs/LDraw/Search (library) paths) and select the official library line in the search order section.
+Its shadow portion should point to offLibShadow.csl, change it to wherever you placed the library root folder (use the "browse folder" button).
 
-It's shadow option should point to offLibShadow.csl, change it to wherever you placed the library root folder (use the browse folder button).
-
-You will need to restart LDCad to activate the changes.
+When done you will need to restart LDCad to activate the changes.
 
 ### Enabling part editing
-Next we need to enable some of the shadow editing tools (>=LDCad 1.7 Beta 1), which are disabled by default, for this you open the "Prefs/Editing/Part editing" menu.
+
+Next we need to enable the shadow editing tools (>=LDCad 1.7 Beta 1), for this you open the "Prefs/Editing/Part editing" menu.
 
 Enable its "Part (shadow) editing" and "Auto shadow header" options and click "Shadow header options...".
 
-In the dialog choose "Official" as format and input your full name (or github username) and be sure to leave "Delete empty files on disk" checked.
+In the new dialog choose "Official" as format, input your full name (or github username) and be sure to leave "Delete empty files on disk" checked.
 
 When done accept the changes, they will be applied without the need for a restart.
 
 ### The part editor
 
-The biggest change will be the presence of a 'wrench' icon when the mouse hovers over a part inside partbin (just like for submodels). Just click any of them (e.g. 60475b.dat, Brick  1 x  1 with Clip) to start editing its shadow.
+The biggest change will be the presence of a 'wrench' icon when the mouse hovers over a part inside a partbin (Like it does with submodels). Click any of them (e.g. 60475b.dat, Brick  1 x  1 with Clip) to start editing its shadow.
 
-When first starting a part edit session LDCad might nag about the library location being zipped, but it should also note the shadow files will be savable (unlike when you used the .csl file). Just check 'don't show again' option if it happens.
+When first starting a part edit session LDCad might nag about the library location being zipped, but it should also note the shadow files will be savable (unlike when you used the .csl file). Just check the 'don't show again' option if it happens.
 
-Editing parts is much like normal model editing as you can select / move things using the mouse and a property dialog (enter key) to change details for the selection.
+Editing parts is much like normal model editing. You can select / move things using the mouse and a property dialog (enter key) to change details for the selection.
 
 But inside parts you are only allowed to move shadow content at the current level (nesting is not available for parts).
 
 ### Opening a source window
 
-While fully possible it is kinda hard to edit shadow information using the default layout of LDCad, so the next thing to do is make some changes to it.
+While possible it is kinda hard to edit shadow information using the default layout of LDCad, so lets make some changes to it.
 
-Most important thing will be adding a source window. For this use "View/New source window", I usually dock it to the right.
+Most important thing will be adding a source window. For this use "View/New source window", it is usually best to dock it to the right. (keep ctrl down when the window is near the target location)
 
-The source window will (by default) automatically scroll to shadow content for newly opened part edit sessions. This is indicated by the "--===Start of shadowfile: ...." line.
-
-This will be visible even if there is no shadow file on disk for the corresponding LDraw library flle.
+The source window will (by default) scroll to shadow content for newly opened part edit sessions. This is indicated by the "--===Start of shadowfile: ...." line. This line will be visible even if there is no shadow file on disk for the corresponding LDraw library flle.
 
 ### Adding shadow information
 
 You'll probably thinking "How about adding stuff?". This is done using a special part bin group called "LDCad meta's". You'll find it as part of the top level "Special parts" group (colored crosses icon). It's the blue wire frame of a stud one.
 
-Personally I like to keep that one open in a second part bin window docked at the bottom of the screen. But you could just as easily assign a view to it in the default bin.
+If you have a decent sized monitor you'll might consider opening this group in a second part bin window docked at the bottom of the screen. But you could just as easily assign a view to it in the default bin.
 
-Explaining all meta's and their (many many) options is somewhat of task and fall outside the scope of this short introduction.
+Explaining all meta's and their (many many) options falls outside the scope of this short introduction. You can find more information about them at the LDCad website (http://www.melkert.net/LDCad/tech/meta).
 
-It is best to learn by example, just look for a similar part with existing information to get ideas. You can also search and ask questions about shadow editing on https://forums.ldraw.org
+But it might be best to learn by example, just look for a similar part with existing information to get ideas. You can also search and ask questions about shadow editing on https://forums.ldraw.org
 
-## Tips
+### Finding the best place to add shadow information
+
+It is alsways best to add information to files high in the recursion tree. This way other (future) parts might inherit the same information without having to define them again.
+
+LDCad has a special part bin group to help you find those files. It is located in the mostly MPD orientated "Model content overview" group. It has the "Deconstructed 1x1 plate" icon.
+
+This group will list all recursively used LDraw files of the current session. When working with 3001.dat (2x4 brick) you'll see all of it's shadow information comes from the s\3001s01.dat file.
+
+This ensures all future versions of the 2x4 brick will also have part snapping information without the need of a shadow library update.
+
+## Additional tips
 
 ### Basic guide rules
+
+- Use F11 to enable/disable rendering of part snapping information inside the bin and model editors. This will help you find parts in need of additional information.
 - Use a transparent working color to see part shapes/place holder wire frames better.
-- Don't add meta's to toplevel parts when they use subparts. Double click on things to go deeper into the part, and add new meta's only to the deepst level still containing the target 'shape'.
+- Don't add meta's to toplevel parts when they use subparts. Double click on things to go deeper into the part, and add new meta's only to the deepest level still containing the target 'shape'.
 - Use a fine grid.
 - Make use of the editors 2D view mode (v)
 
 ### Angles
-Use plenty of digits for sin/cos values,
-  or it WILL affect snapping precision in the y direction of the info.
+
+Use plenty of digits for sin/cos values, or it WILL affect snapping precision in the y direction of the info.
 
 for example:
-45 deg sin: 0.70710678
-60 deg sin: 0.86602544
+- 45 deg sin: 0.70710678
+- 60 deg sin: 0.86602544
 
 ### Rotation
-All info points into the negative Y-axis when at rest.
- some alternative ori values are:
 
+All info points into the negative Y-axis when at rest.
+
+Some alternative ori values are:
+
+```
 Neg Y (base)  1 0 0 0 1 0 0 0 1
 Pos Y         1 0 0 0 -1 0 0 0 -1
 
@@ -105,13 +133,13 @@ Pos X         0 -1 0 1 0 0 0 0 1
 
 Neg Z         1 0 0 0 0 -1 0 1 0
 Pos Z         1 0 0 0 0 1 0 -1 0
+```
 
 ## Meta properties
 
-
 ### ID's
 
-Some primitive shadow files use ID's on some of the meta's, this way the information can dropped from higher parts if needed. The currently used ID's are:
+Some (low level) shadow files use ID's in their meta's, this way the information can be dropped from higher parts if needed. The currently used ID's are:
 
 - **aStud**: Antistud (stud4od.dat).
 - **axle**: Axle (axle.dat).
@@ -144,7 +172,7 @@ Some primitive shadow files use ID's on some of the meta's, this way the informa
 
 ### Groups
 
-Some off beat shapes use group names to prevent unwanted matches, the currently used groups are:
+Some off-beat shapes use group names to prevent unwanted matches, the currently used groups are:
 
 - **bikeWheel**: Bicycle wheel.
 - **bionicleChain**: Chain segment.
@@ -252,26 +280,30 @@ Some off beat shapes use group names to prevent unwanted matches, the currently 
 - **z28Turntable**: Turntable connection.
 - **z56TurnTableT1**: Turntable connection.
 
-### Wheels
+### Rim\* groups
 
 tyre/rimms are combinations of their shape parameters, in hopes they automatically perform 1 on n fitting without the need to resource all combo's.--
 rimAA-BB: where AA is the smallest radius (where rubber meets metal), and BB is the distance between the ridges which keeps the tyre in between them, taken from the rubber insides.
 
-
-
 ## Snippets
 
 0.5 connhole (there is no prim for it)
-  0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2  R 6 6  R 8 2] [center=true] [slide=true]
-
+```
+0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2  R 6 6  R 8 2] [center=true] [slide=true]
+```
 Technic ballpoint
-  0 !LDCAD SNAP_GEN [gender=M] [bounding=sph 12.7] [group=techBallJnt][match=size] [placement=free]
-
+```
+0 !LDCAD SNAP_GEN [gender=M] [bounding=sph 12.7] [group=techBallJnt][match=size] [placement=free]
+```
 Technic ballsocket
-  0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 12.7] [group=techBallJnt][match=size] [placement=free]
-
+```
+0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 12.7] [group=techBallJnt][match=size] [placement=free]
+```
 Towball balljoint
-  0 !LDCAD SNAP_GEN [gender=M] [bounding=sph 8] [match=size] [placement=free]
-
+```
+0 !LDCAD SNAP_GEN [gender=M] [bounding=sph 8] [match=size] [placement=free]
+```
 Towball socket
-  0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 8] [match=size] [placement=free]
+```
+0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 8] [match=size] [placement=free]
+```
