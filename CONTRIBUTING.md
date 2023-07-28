@@ -86,7 +86,7 @@ You'll probably thinking "How about adding stuff?". This is done using a special
 
 If you have a decent sized monitor you'll might consider opening this group in a second part bin window docked at the bottom of the screen. But you could just as easily assign a view to it in the default bin.
 
-Explaining all meta's and their (many many) options falls outside the scope of this short introduction. You can find more information about them at the LDCad website (http://www.melkert.net/LDCad/tech/meta).
+Explaining all meta's and their (many many) options falls outside the scope of this short introduction. You can find more information about them at the LDCad website (https://www.melkert.net/LDCad/tech/meta).
 
 But it might be best to learn by example, just look for a similar part with existing information to get ideas. You can also search and ask questions about shadow editing on https://forums.ldraw.org
 
@@ -282,8 +282,8 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 
 ### Rim\* groups
 
-tyre/rimms are combinations of their shape parameters, in hopes they automatically perform 1 on n fitting without the need to resource all combo's.--
-rimAA-BB: where AA is the smallest radius (where rubber meets metal), and BB is the distance between the ridges which keeps the tyre in between them, taken from the rubber insides.
+The rim\8 groups are an encoded combination of tire/wheel shape parameters. The goal is to automatically perform 1 on n fitting without the need to research all possible combinations.
+The format is: rimAA-BB, where AA is the smallest radius (spot rubber meets 'metal'), and BB is the distance between the ridges that keep the tire inbetween them measured using the 'rubber' insides.
 
 ## Snippets
 

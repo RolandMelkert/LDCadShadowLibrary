@@ -17,7 +17,7 @@ https://github.com/RolandMelkert/LDCadShadowLibrary
 
 If you like to contribute please read CONTRIBUTING.md first.
 
-For more information about the LDCad meta lines used in this library please visit: http://www.melkert.net/LDCad/tech/meta
+For more information about the LDCad meta lines used in this library please visit: https://www.melkert.net/LDCad/tech/meta
 
 ## License
 
