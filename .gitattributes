@@ -1,1 +1,4 @@
 *.dat text eol=crlf
+*.md text eol=lf
+*.sh text eol=lf
+.* text eol=lf
