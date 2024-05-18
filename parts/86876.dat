@@ -4,8 +4,7 @@
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2023-07-03 {Roland Melkert} Initial info for 86876.dat
-0 !HISTORY 2024-05-15 {Fredrik Hareide} Updated info for 86876.dat
-0 !HISTORY 2024-05-15 {Fredrik Hareide} Fixed bug with antistuds
+0 !HISTORY 2024-05-18 {Roland Melkert} Fixed wrong gender
 
-0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20] [pos=0 24 0] [grid=C 2 1 20 0]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 20] [pos=0 24 0] [grid=C 3 1 10 0]
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 4 18] [slide=true] [pos=0 10 -14] [ori=1 0 0 0 0 1 0 -1 0]
