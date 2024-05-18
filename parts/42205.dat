@@ -3,7 +3,7 @@
 0 Author: LDCad Shadow Library
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
-0 !HISTORY 2024-05-15 {Fredrik Hareide} Initial info for 42205.dat
+0 !HISTORY 2024-05-15 {Fredrik Hareide} Initial info for 42205.dat {unofficial}
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 144 0] [grid=C 6 1 20 0]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 1 100 0]
