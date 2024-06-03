@@ -1,0 +1,6 @@
+0 LDCad info for "Tile  1 x  2 Half Round"
+0 Author: Jaco van der Molen [Jaco]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=10 8 0]
+0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [pos=-10 8 0]
