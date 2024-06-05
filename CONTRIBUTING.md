@@ -178,6 +178,8 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **bionicleChain**: Chain segment.
 - **boat**: Boat segment connection.
 - **boatMotor**: Boat motor connection.
+- **buWizzExt**: buWizz extention connection.
+- **buWizzUsb**: buWizz usb connection.
 - **bucketArm**: Excavator arm bucket.
 - **bumper**: Technic brick bumper connection.
 - **clkRot**: Click rotation connection.
@@ -249,6 +251,8 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **sglWhlAxle**: Single wheel axle / clips connector.
 - **sharkHead**: Animal shark specific.
 - **shooter**: Spring shooter.
+- **shooter-2-6**: shooter brick halve.
+- **shooter-btn**: shooter brick trigger button.
 - **steerHold1**: Technic steering holder (2792 & 2791a).
 - **steerHub1**: Technic steering arm/hub (e.g. 41894 & 41895).
 - **techBallJnt**: Technic ball joint spheres.
