@@ -6,17 +6,17 @@ This document will try to help you get ready to contribute to the LDCad Shadow L
 
 Before you get started please realize you will need lots of patience, precision and some fidling to define accurate shadow information.
 
-It also requires a basic understanding of the LDraw format and the way official LDraw library files are constructed.
+It also requires a basic understanding of the LDraw format and the way LDraw.org library files are constructed.
 
 Just like LDraw files the shadow library is made out of human readable/editable .dat (UTF8 text) files, but you most likely don't want to edit those as is.
 
-LDCad will combine the official and shadow content of the same name during loading before processing it as a single text file.
+LDCad will combine the LDraw.org and shadow content of the same name during loading before processing it as a single text file.
 
 ## How to contribute
 
 There are multiple ways of contributing something to the library:
 
-1. Fork the github repo, clone a local copy and when your done with your changes create a push request.
+1. Fork the github repo, clone a local copy, make your changes in a new branch and when done create a push request with that branch.
 2. Post additions, changes, problems, suggestions on: https://forums.ldraw.org/thread-23807.html
 3. E-Mail additions/changes to the LDCad author.
 
@@ -24,8 +24,9 @@ The push request method is preferred as it will be easier to merge your changes.
 
 To make merging of your content as easy as possible please follow and or be aware of the following rules:
 
-- Shadows should always be written against the latest offical LDraw library (https://library.ldraw.org/updates?latest).
-- Header should be formated similar to all other shadow files.
+- Shadows should always be written against the latest LDraw.org library (https://library.ldraw.org/updates?latest).
+- Making shadow files for unofficial parts is permitted but be sure you are using a very recent version of ldrawunf.zip and the unofficial library comes last in the search order.
+- Header should be formatted similar to all other shadow files.
 - Besides a subset of header meta's only LDCad SNAP, MIRROR and HINTS metas are allowed.
 - Any donated content will become part of the library using its global license (see LICENSE.md).
 - Your Content might be rejected if it needs to many corrections.

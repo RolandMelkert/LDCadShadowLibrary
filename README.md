@@ -1,14 +1,14 @@
 # The LDCad Shadow Library
 
-The LDCad Shadow Library is a collection of LDraw 'patch' files whom add snapping and mirroring information to a large subset of official LDraw library parts.
+The LDCad Shadow Library is a collection of LDraw 'patch' files whom add snapping and mirroring information to a large subset of LDraw.org library parts.
 
-The main goal is to provide LDCad with information it needs to offer auto part snapping during model editing.
+The main goal is to provide LDCad with information it needs to offer part snapping assitance during model editing.
 
 The patch approach is needed because the LDraw format currently doesn't provide needed information for accurate part snapping and mirroring (while keeping valid model level matrices).
 
-This missing information is added to the official LDraw library (https://www.ldraw.org) by appending identically named files containing meta lines during the loading process of LDCad.
+This missing information is added to the LDraw.org library (https://www.ldraw.org) by appending identically named files containing meta lines during the loading process of LDCad.
 
-The ultimate goal of this project is to supply snapping and mirroring information for each and every official LDraw part. But there are almost 10000 official LDraw parts and only one LDCad developer.
+The ultimate goal of this project is to supply snapping and mirroring information for each and every official LDraw.org part. But there are over 18000 official parts and only one LDCad developer.
 
 For this reason the content was moved to a public git repository in the hopes of finding people willing to help extend the number of supported parts quicker.
 
