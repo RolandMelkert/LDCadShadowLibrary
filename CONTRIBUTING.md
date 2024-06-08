@@ -189,10 +189,12 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **cow**: Animal cow specific.
 - **craneArmW16**: Slim technic beam based crane arm.
 - **craneArmW20**: Normal technic beam based crane arm.
+- **cylSlide**: Cylinder Tube Slide Connection.
 - **diffHouse**: Technic differential housing.
 - **door**: Generic door / frame connection.
 - **door-1-3-4**: Specific door / frame connection.
 - **dragon**: Animal dragon specific.
+- **dragon1**: Dragon Body (Hungarian Horntail) conntection.
 - **dragonHead**: Animal dragon specific.
 - **dragonTail**: Animal dragon specific.
 - **drawer**: Minifig drawer cabinet.
@@ -243,6 +245,7 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **mfSuitCase**: Minifig suitcase hinge.
 - **nudge1**: Technic spindle nudged sphere (32494 & 92902).
 - **nxtc**: NXT rj12 connector.
+- **palmTree**: Palm tree brick connection.
 - **pfLight**: Power functions led.
 - **pfc**: Powerfunction 'wide elec stud'.
 - **pneuCyl**: Pneumatic cylinder extension guide.
