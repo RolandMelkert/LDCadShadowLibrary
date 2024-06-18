@@ -1,0 +1,9 @@
+0 LDCad shadow info for "~Figure Friends Girl/Boy/Woman Torso Inner Mold {unofficial}"
+
+0 Author: Philippe Hurbain [Philo]
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 //Neck
+0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 11] [slide=true] [pos=0 -8 0.2]
+0 //Hips
+0 !LDCAD SNAP_GEN [group=frdsHps] [gender=F] [bounding=box 8 4 4] [pos=0 13.1 -0.8]
