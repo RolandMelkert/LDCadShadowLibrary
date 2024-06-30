@@ -213,6 +213,7 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **ferris**: Duplo ferris wheel.
 - **figBike3Frame**: Bike left/right frame.
 - **frdsHps**: Friends hips (gen and fgr).
+- **frdsHpsNarrow**: Friends narrow hips
 - **glWnd_1x4x6**: 1x4x6 window glass.
 - **glWnd_72x60**: Window glass.
 - **glsCarRoof**: Car roof glass.
