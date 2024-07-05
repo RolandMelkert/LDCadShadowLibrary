@@ -1,0 +1,7 @@
+0 LDCad shadow info for "Plate  4 x  3 x  0.667 with Rounded Corners on one Side {unofficial}"
+
+0 Author: Philippe Hurbain [Philo]
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 16 -10] [grid=C 4 C 2 20 20]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 8 20] [grid=C 2 1 20 0]

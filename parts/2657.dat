@@ -1,0 +1,7 @@
+0 LDCad shadow info for "Door  1 x  3 x  5 {unofficial}"
+
+0 Author: Philippe Hurbain [Philo]
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !LDCAD SNAP_FGR [group=door] [genderOfs=M] [seq=108] [radius=4] [pos=0 58 0]
+0 !LDCAD MIRROR_INFO [baseFlip=Y] [counterPart=self] [posCor=0 58 0]
