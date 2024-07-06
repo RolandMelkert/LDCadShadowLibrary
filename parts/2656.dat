@@ -1,7 +1,9 @@
 0 LDCad shadow info for "Container Cupboard  2 x  3 x  5 {unofficial}"
 
-0 Author: Philippe Hurbain [Philo]
+0 Author: LDCad Shadow Library
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2024-07-06 {Philippe Hurbain} Initial info for 2656.dat
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 120 0] [ori=-1 0 0 0 1 0 0 0 -1] [grid=C 3 C 2 20 20]
 0 !LDCAD SNAP_FGR [group=door] [genderOfs=M] [seq=2 108 2] [radius=4] [pos=-22 58 -15] [ori=-1 0 0 0 1 0 0 0 -1]
