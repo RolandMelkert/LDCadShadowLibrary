@@ -12,13 +12,13 @@ The ultimate goal of this project is to supply snapping and mirroring informatio
 
 For this reason the content was moved to a public git repository in the hopes of finding people willing to help extend the number of supported parts quicker.
 
-You’ll find the latest version of this library at:
+Youâ€™ll find the latest version of this library at:
 https://github.com/RolandMelkert/LDCadShadowLibrary
 
-If you like to contribute please read CONTRIBUTING.md first.
+If you like to contribute please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 For more information about the LDCad meta lines used in this library please visit: https://www.melkert.net/LDCad/tech/meta
 
 ## License
 
-The library is released under the Creative Commons Attribution-ShareAlike 4.0 license (see LICENSE.md)
+The library is released under the Creative Commons Attribution-ShareAlike 4.0 license (see [LICENSE.md](LICENSE.md))
