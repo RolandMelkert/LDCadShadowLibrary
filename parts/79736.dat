@@ -1,9 +1,10 @@
-0 LDCad shadow info for "Minifig Watering Can {unofficial}"
+0 LDCad shadow info for "Minifig Watering Can"
 
 0 Author: LDCad Shadow Library
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2024-07-06 {Philippe Hurbain} Initial info for 79736.dat {unofficial}
+0 !HISTORY 2025-06-12 {Roland Melkert} Made official
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 10 3] [pos=0 -32 0] [ori=1 0 0 0 -1 0 0 0 -1]
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 5]
