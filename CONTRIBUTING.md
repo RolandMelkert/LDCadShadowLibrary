@@ -28,7 +28,7 @@ To make merging of your content as easy as possible please follow and or be awar
 - Making shadow files for unofficial parts is permitted but be sure you are using a very recent version of ldrawunf.zip and the unofficial library comes last in the search order.
 - Header should be formatted similar to all other shadow files.
 - Besides a subset of header meta's only LDCad SNAP, MIRROR and HINTS metas are allowed.
-- Any donated content will become part of the library using its global license (see LICENSE.md).
+- Any donated content will become part of the library using its global license (see [LICENSE.md](LICENSE.md)).
 - Your Content might be rejected if it needs to many corrections.
 
 ## LDCad
