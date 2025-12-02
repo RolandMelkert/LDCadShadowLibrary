@@ -245,6 +245,7 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **mast**: Boat mast connection.
 - **mfSuitCase**: Minifig suitcase hinge.
 - **nudge1**: Technic spindle nudged sphere (32494 & 92902).
+- **nudge2**: Technic spindle nudged sphere (type2)
 - **nxtc**: NXT rj12 connector.
 - **palmTree**: Palm tree brick connection.
 - **pfLight**: Power functions led.
