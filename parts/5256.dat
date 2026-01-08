@@ -4,5 +4,8 @@
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2024-07-06 {Philippe Hurbain} Initial info for 5256.dat {unofficial}
+0 !HISTORY 2026-01-08 {Roland Melkert} Replaced the include
 
-0 !LDCAD SNAP_INCL [ref=3941.dat]
+0 !LDCAD SNAP_CLEAR [ID=axleHole]
+0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 24 0] [grid=C 2 C 2 20 20]
+0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 6.5   A 6 17   R 6 0.5] [pos=0 24 0]
