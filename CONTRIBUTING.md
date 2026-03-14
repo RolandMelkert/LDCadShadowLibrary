@@ -254,6 +254,7 @@ Some off-beat shapes use group names to prevent unwanted matches, the currently 
 - **pwrFnc2Plg**: Power functions 2 plug/socket.
 - **rim42_31**: See rims.
 - **rim47_31**: See rims.
+- **rim8_6**: See rims.
 - **sglWhlAxle**: Single wheel axle / clips connector.
 - **sharkHead**: Animal shark specific.
 - **shooter**: Spring shooter.
