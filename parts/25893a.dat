@@ -1,0 +1,8 @@
+0 LDCad shadow info for "Plate  1 x  1 Round with Bar Handle on Short Stem"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2026-09-13 {Maximilian Mews} Initial info for 25893a.dat
+
+0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 4 20] [center=true] [slide=true] [pos=0 8 0] [ori=0 1 0 1 0 0 0 0 -1]

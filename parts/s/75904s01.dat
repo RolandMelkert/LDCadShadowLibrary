@@ -1,8 +1,9 @@
-0 LDCad shadow info for "Minifig Tool Sledgehammer"
+0 LDCad shadow info for "~Minifig Sledgehammer without Patternable Faces"
 
 0 Author: LDCad Shadow Library
 0 !LICENSE CC BY-SA 4.0, see LICENSE.md
 
 0 !HISTORY 2015-10-07 {Roland Melkert} Initial info for 75904.dat
+0 !HISTORY 2026-09-13 {Maximilian Mews} Initial info for s\75904s01.dat; moved connection info from 75904.dat
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 30] [slide=true] [pos=0 -8 0] [ori=1 0 0 0 -1 0 0 0 -1]

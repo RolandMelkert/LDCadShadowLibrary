@@ -1,0 +1,9 @@
+0 LDCad shadow info for "~Garage Door with Hinge Pins"
+
+0 Author: LDCad Shadow Library
+0 !LICENSE CC BY-SA 4.0, see LICENSE.md
+
+0 !HISTORY 2026-09-13 {Maximilian Mews} Initial info for 822d.dat
+
+0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 2 6] [pos=2.1146463e-15 -5.92056e-15 -52] [ori=1 -4.0666275e-17 1.701585e-18 2.4830682e-16 1.1385692e-16 -1 7.7965386e-17 1 3.4899029e-17]
+0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 2 6] [pos=2.1146463e-15 -5.92056e-15 52] [ori=-1 -4.0666275e-17 1.701585e-18 -2.4830682e-16 1.1385692e-16 -1 7.7965386e-17 -1 -3.4899029e-17]
